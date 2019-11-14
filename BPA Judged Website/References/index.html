@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>06-0348-0077 | References</title>
+        <meta charset="utf-8">
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="../src/css/main.css">
+        <link rel="stylesheet" type="text/css" href="../src/css/sidebar.css">
+    </head>
+    <body>
+        <!--Javascript for sidebar-->
+        <!--Used to toggle classes used by sidebar-animations.css-->
+        <script src="../src/js/sidebar.js"></script>
+        <!--Menu button-->
+        <!--Each div inside represents one of the bars in the icon, which is animated using the sidebar-animations.css file-->
+        <div class="menu-button-container" onclick="toggleMenu(this);">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <!--Sidebar-->
+        <!--Has width set to 0px unless .sidebar has .show-sidebar, where it is set to take up 25% of the screen-->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-button-empty-space"></div>
+            <ul>
+                <li class="sidebar-link"><a href="#top">Home</a></li>
+            </ul>
+        </div>
+        <!--Main Webpage code-->
+    </body>
+</html>
