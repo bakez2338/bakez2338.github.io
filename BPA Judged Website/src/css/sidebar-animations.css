@@ -31,6 +31,7 @@
 /*Bar 2 transition*/
 .menu-button-container.menu-open .bar2 {
     transition:1s;
+    -webkit-transition:ease-in-out;
     opacity:0%;
     transform:translate(0px, 0px);
     background-color:red;
