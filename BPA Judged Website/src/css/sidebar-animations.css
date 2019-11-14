@@ -25,20 +25,22 @@
 /*Bar 1 transition*/
 .menu-button-container.menu-open .bar1 {
     transition:1s;
+    -webkit-transform:rotate(45deg);
     transform:rotate(45deg) translate(8px, 0px);
     background-color:red;
 }
 /*Bar 2 transition*/
 .menu-button-container.menu-open .bar2 {
     transition:1s;
-    -webkit-transition:ease-in-out;
     opacity:0%;
+    -webkit-transition:opacity 1s;
     transform:translate(0px, 0px);
     background-color:red;
 }
 /*Bar 3 transition*/
 .menu-button-container.menu-open .bar3 {
     transition:1s;
+    -webkit-transform:rotate(-45deg);
     transform:rotate(-45deg) translate(8px,0px);
     background-color:red;
 }
