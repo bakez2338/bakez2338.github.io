@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>06-0348-0077 | References</title>
+        <meta charset="utf-8">
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="../src/css/main.css">
+        <link rel="stylesheet" type="text/css" href="../src/css/sidebar.css">
+    </head>
+    <body>
+        <!--Javascript for sidebar-->
+        <!--Used to toggle classes used by sidebar-animations.css-->
+        <script src="../src/js/sidebar.js"></script>
+        <!--Menu button-->
+        <!--Each div inside represents one of the bars in the icon, which is animated using the sidebar-animations.css file-->
+        <div class="menu-button-container" onclick="toggleMenu(this);">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <!--Sidebar-->
+        <!--Has width set to 0px unless .sidebar has .show-sidebar, where it is set to take up 25% of the screen-->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-button-empty-space"></div>
+            <ul>
+                <li class="sidebar-link"><a href="../index.html">Home</a></li>
+                <hr>
+                <li class="sidebar-link"><a href="../Features/index.html">Features</a></li>
+                <li class="sidebar-link"><a href="#top">References</a></li>
+            </ul>
+        </div>
+        <div id="sidebar-cover" class="sidebar-cover"></div>
+        <!--Main Webpage code-->
+        <h1>Features</h1>
+        <h3>Power</h3>
+        <ul>
+            <li>Solar Panel (Roofing)</li>
+            <li>Small Wind Turbines</li>
+            <li>Geothermal Power</li>
+        </ul>
+        <h3>Bio-Safe Resources for Construction</h3>
+        <ul>
+            <li>Cork Flooring</li>
+            <li>Wool Carpets</li>
+            <li></li>
+        </ul>
+        <h3>Resource and Energy Efficient Appliances</h3>
+        <ul>
+            <li>Water Filtration System</li>
+            <li>No-tub Shower</li>
+        </ul>
+    </body>
+</html>

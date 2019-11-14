@@ -15,8 +15,6 @@
 /*Makes all sidebar links white with a white dotted line underneath*/
 .sidebar ul li.sidebar-link a {
     color:white;
-    text-decoration:underline;
-    text-decoration-style:dotted;
 }
 /*Creates a filler to place in areas that the menu button covers.*/
 .menu-button-empty-space {
@@ -77,10 +75,21 @@
     overflow-x:hidden;
     top:0px;
     left:0px;
+    z-index:998;
 }
 /*Width transition*/
 .sidebar.show-sidebar {
     transition: 1s;
     display:initial;
     width:25vw;
+}
+.sidebar-cover {
+    height:100vh;
+    background-color:#333;
+}
+.sidebar-cover.show-sidebar {
+    transition:1s;
+    display:initial;
+    width:100vw;
+    z-index:997;
 }
