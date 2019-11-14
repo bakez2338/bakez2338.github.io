@@ -1,0 +1,62 @@
+/*Horizontal Bars*/
+.menu-button-container .bar1, .menu-button-container .bar2, .menu-button-container .bar3 {
+    height:3px;
+    width:30px;
+    background-color:#000;
+    margin:3px 0;
+    transition:1s;
+}
+/*Container for horizontal bars*/
+.menu-button-container{
+    margin-right:15px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg);
+    float:left;
+}
+/*Flip container upside down*/
+.menu-button-container.menu-open {
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+/*Bar 1 transition*/
+.menu-button-container.menu-open .bar1 {
+    transition:1s;
+    transform:rotate(45deg) translate(8px, 0px);
+    background-color:red;
+}
+/*Bar 2 transition*/
+.menu-button-container.menu-open .bar2 {
+    transition:1s;
+    opacity:0%;
+    transform:translate(0px, 0px);
+    background-color:red;
+}
+/*Bar 3 transition*/
+.menu-button-container.menu-open .bar3 {
+    transition:1s;
+    transform:rotate(-45deg) translate(8px,0px);
+    background-color:red;
+}
+/*Sidebar and sidebar hidden*/
+.sidebar {
+    background-color:#333;
+    color:#fff;
+    transition: 1s;
+    width:0px;
+    height:100vh;
+    position:fixed;
+    overflow-y:auto;
+    overflow-x:hidden;
+    top:0px;
+    left:0px;
+}
+/*Width transition*/
+.sidebar.show-sidebar {
+    transition: 1s;
+    display:initial;
+    width:25vw;
+}

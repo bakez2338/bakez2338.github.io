@@ -1,0 +1,31 @@
+/*Body style*/
+body{
+    background-color:#fff;
+    color:#333;
+    padding:15px;
+}
+/*Brings the menu button to the top of the page*/
+.menu-button-container {
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index:999;
+}
+/*Brings the sidebar above everything accept for the menu button*/
+.sidebar ul {
+    padding:15px;
+    list-style-type:none;
+    padding-inline-start:25px;
+    z-index:998;
+}
+/*Makes all sidebar links white with a white dotted line underneath*/
+.sidebar ul li.sidebar-link a {
+    color:white;
+    text-decoration:underline;
+    text-decoration-style:dotted;
+}
+/*Creates a filler to place in areas that the menu button covers.*/
+.menu-button-empty-space {
+    width:30px;
+    height:21px;
+}
