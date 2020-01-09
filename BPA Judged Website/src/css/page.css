@@ -1,0 +1,34 @@
+body{
+    background-color:#80808f;
+    color:#000;
+    overflow-x:hidden;
+    padding:0px;
+    margin:0px;
+}
+#header{
+    /*Temporary Holder*/
+    background-color:#444;
+    /*
+    background-image:url("../assets/banner.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    */
+    width:100vw;
+    height:calc(100vw / (1920 / 300));
+    padding:0px;
+    margin:0px;
+    /*image size is 1920x300*/
+    text-align:left;
+    padding-left:calc(100vw / (42 + (2 / 3)));
+}
+#header p{
+    position:relative;
+    top:calc(100vw / (1920 / 300) - 2 * (100vw / (1920 / 40)));
+    margin:0px;
+    font-size:calc(100vw / (1920 / 40));
+    height:calc(100vw / (1920 / 40));
+}
+#header p a{
+    color:#000;
+    font-family:"Times New Roman", Times, sans-serif;
+}

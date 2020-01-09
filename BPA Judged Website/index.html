@@ -1,43 +1,33 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
     <head>
-        <title>00-0346-0077 | Home</title>
+        <title>Zach's Personal Website | Exam Part 1</title>
         <meta charset="utf-8">
-        <!--Stylesheets-->
-        <link rel="stylesheet" type="text/css" href="./src/css/main.css">
-        <link rel="stylesheet" type="text/css" href="./src/css/sidebar.css">
+        <link rel="stylesheet" type="text/css" href="./src/css/home.css">
+        <style>
+            body{
+                overflow-y:hidden;
+                background-color:#000;
+            }
+        </style>
     </head>
     <body>
-        <!--Javascript for sidebar-->
-        <!--Used to toggle classes used by sidebar-animations.css-->
-        <script src="./src/js/sidebar.js"></script>
-        <!--Menu button-->
-        <!--Each div inside represents one of the bars in the icon, which is animated using the sidebar-animations.css file-->
-        <div class="menu-button-empty-space"></div>
-        <div class="menu-button-container" onclick="toggleMenu(this);">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-        <!--Sidebar-->
-        <!--Has width set to 0px unless .sidebar has .show-sidebar, where it is set to take up 25% of the screen-->
-        <div id="sidebar" class="sidebar">
-            <div class="menu-button-empty-space"></div>
-            <ul>
-                <li class="sidebar-link"><a href="#top">Home</a></li>
-                <hr>
-                <li class="sidebar-link"><a href="./Features/index.html">Features</a></li>
-                <li class="sidebar-link"><a href="./References/index.html">References</a></li>
-            </ul>
-        </div>
-        <div id="sidebar-cover" class="sidebar-cover"></div>
-        <!--Main Webpage code-->
-        <div id="wrapper">
-            <h1 class="center">Home</h1>
-            <div id="first-set">
-                <div id="first-image"></div>
-                <span></span>
-            </div>
+        <!--Wrapper for the header of the website-->
+        <div id="header"></div>
+        <!--Wrapper for the body of the website-->
+        <div id="homewrapper">
+            <!--Table of images that will be used as links-->
+            <table id="hometable">
+                <tbody>
+                    <tr>
+                        <!--Columns of the tables each containing a div with an image as the background, as well as some text to put on top of the image-->
+                        <td><a class="divimagelink" href=""><div id=""><strong></strong></div></a></td>
+                        <td><a class="divimagelink" href=""><div id=""><strong></strong></div></a></td>
+                        <td><a class="divimagelink" href=""><div id=""><strong></strong></div></a></td>
+                        <td><a class="divimagelink" href="./About/index.html"><div id="about"><strong>About Us</strong></div></a></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </body>
 </html>
