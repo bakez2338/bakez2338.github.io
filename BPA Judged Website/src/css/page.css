@@ -6,13 +6,10 @@ body{
     margin:0px;
 }
 #header{
-    /*Temporary Holder*/
-    background-color:#444;
-    /*
-    background-image:url("../assets/banner.png");
+    background-color:#000;
+    background-image:url("../images/bihomeBanner.png");
     background-size:contain;
     background-repeat:no-repeat;
-    */
     width:100vw;
     height:calc(100vw / (1920 / 300));
     padding:0px;
@@ -29,6 +26,6 @@ body{
     height:calc(100vw / (1920 / 40));
 }
 #header p a{
-    color:#000;
+    color:#333;
     font-family:"Times New Roman", Times, sans-serif;
 }

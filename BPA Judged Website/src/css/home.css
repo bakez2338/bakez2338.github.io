@@ -5,7 +5,7 @@ body{
     overflow-x:hidden;
 }
 #header{
-    background-image:url("../assets/banner.png");
+    background-image:url("../images/bihomeBanner.png");
     background-size:contain;
     background-repeat:no-repeat;
     width:100vw;
@@ -48,23 +48,20 @@ body{
     font-family:'Times New Roman', Times, sans-serif;
 }
 .divimagelink div#about{
+    background-image:url("../images/home.jpg");
+    background-size:cover;
+    background-position-x:80%;
+}
+.divimagelink div#green{
+    background-image:url("../images/field.jpg");
+    background-size:cover;
+}
+.divimagelink div#homes{
     background-image:url("../images/house.jpeg");
     background-size:cover;
     background-position-x:40%;
 }
-.divimagelink div#careerandeducationimage{
-    background-color:#fff;
-    background-position-y:45px;
-    background-image:url("../assets/clay.png");
-    background-size:contain;
-}
-.divimagelink div#nowimage{
-    background-color:#f0db4f;
-    background-image:url("../assets/javascript.png");
-    background-size:contain;
-    background-position-y:75px;
-}
 #hometable td{
-    width:25vw;
+    width:calc((1 / 3) * 100vw);
     height:calc(100vh - (100vw / (1920 / 300)));
 }
