@@ -20,12 +20,22 @@ body{
 }
 #header p{
     position:relative;
-    top:calc(100vw / (1920 / 300) - 2 * (100vw / (1920 / 40)));
+    top:calc(100vw / (1920 / 300) - 3 * (100vw / (1920 / 40)));
     margin:0px;
     font-size:calc(100vw / (1920 / 40));
     height:calc(100vw / (1920 / 40));
 }
 #header p a{
-    color:#333;
+    color:#000;
     font-family:"Times New Roman", Times, sans-serif;
+}
+.center{
+    text-align:center;
+
+}
+#wrapper{
+    padding:0px 30px;
+}
+p{
+    font-size:20pt;
 }
