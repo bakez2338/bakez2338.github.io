@@ -36,6 +36,9 @@ body{
 #wrapper{
     padding:0px 30px;
 }
+#content{
+    padding-left:30px;
+}
 p{
     font-size:20pt;
 }
