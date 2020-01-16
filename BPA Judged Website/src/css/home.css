@@ -36,7 +36,7 @@ body{
 .center{
     text-align:center;
 }
-.divimagelink div{
+.landscape .divimagelink div{
     width:100%;
     height:100%;
     margin:0px;
@@ -47,21 +47,50 @@ body{
     color:#000;
     font-family:'Times New Roman', Times, sans-serif;
 }
-.divimagelink div#about{
+.landscape .divimagelink div#about{
     background-image:url("../images/home.jpg");
     background-size:cover;
     background-position-x:80%;
 }
-.divimagelink div#green{
+.landscape .divimagelink div#green{
     background-image:url("../images/field.jpg");
     background-size:cover;
 }
-.divimagelink div#homes{
+.landscape .divimagelink div#homes{
     background-image:url("../images/house.jpeg");
     background-size:cover;
     background-position-x:40%;
 }
-#hometable td{
+#hometable .landscape td{
     width:calc((1 / 3) * 100vw);
+    height:calc(100vh - (100vw / (1920 / 300)));
+}
+.portrait .divimagelink div{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    background-repeat:no-repeat;
+    display:inline-block;
+    color:#000;
+    font-family:'Times New Roman', Times, sans-serif;
+}
+.portrait .divimagelink div#about{
+    background-image:url("../images/home.jpg");
+    background-size:cover;
+    background-position-x:80%;
+}
+.portrait .divimagelink div#green{
+    background-image:url("../images/field.jpg");
+    background-size:cover;
+}
+.portrait .divimagelink div#homes{
+    background-image:url("../images/house.jpeg");
+    background-size:cover;
+    background-position-x:40%;
+}
+#hometable .portrait td{
+    width:calc(100vw);
     height:calc(100vh - (100vw / (1920 / 300)));
 }
