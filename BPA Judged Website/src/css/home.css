@@ -94,5 +94,5 @@ body{
 }
 #hometable .portrait td{
     width:calc(100vw);
-    height:calc(100vh / 3 - (100vw / (1920 / 300)  / 3));
+    height:calc((100vh - (100vw / (1920 / 300))) / 3);
 }
