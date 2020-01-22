@@ -42,9 +42,11 @@ body{
 p{
     font-size:20pt;
 }
+div div:has(div.content) {
+    text-align:center;
+}
 div div div.content {
     display:inline;
-    text-align:center;
 }
 .houseimage{
     width:50%;
