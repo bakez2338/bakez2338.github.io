@@ -42,3 +42,10 @@ body{
 p{
     font-size:20pt;
 }
+div div div.content {
+    display:inline;
+    text-align:center;
+}
+.houseimage{
+    width:50%;
+}
