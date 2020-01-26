@@ -51,3 +51,9 @@ div div div.content {
 .houseimage{
     width:50%;
 }
+.img-right{
+    float:right;
+}
+.img-left{
+    float:left;
+}
