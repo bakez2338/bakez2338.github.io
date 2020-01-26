@@ -54,6 +54,9 @@ div div div.content {
 .img-right{
     float:right;
 }
-.img-left{
+.f-left{
     float:left;
+}
+.f-right{
+    float:right;
 }
