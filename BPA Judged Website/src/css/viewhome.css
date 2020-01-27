@@ -39,6 +39,7 @@ body{
     left:25px;
 }
 #backbtn a{
+    font-family:monospace;
     font-size:20pt;
     text-decoration:none;
 }
