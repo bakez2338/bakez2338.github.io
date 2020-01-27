@@ -1,7 +1,5 @@
 body{
     background-color:#80808f;
-    background-size:contain;
-    background-repeat:no-repeat;
     color:#000;
     overflow-x:hidden;
     padding:0px;
@@ -9,8 +7,10 @@ body{
 }
 /*Size of image is 1827 × 1008*/
 #homeimage{
+    background-size:contain;
+    background-repeat:no-repeat;
     width:100vw;
-    height:calc(100vw / (1827 / 1008));
+    height:calc(100vw / (1812 / 1008));
 }
 #homeimage.h11{
     background-image:url("../images/11.png");
@@ -29,4 +29,16 @@ body{
 }
 #homeimage.h32{
     background-image:url("../images/32.png");
+}
+.red{
+    color:#f00;
+}
+#backbtn{
+    position:fixed;
+    top:25px;
+    left:25px;
+}
+#backbtn a{
+    font-size:20pt;
+    text-decoration:none;
 }
