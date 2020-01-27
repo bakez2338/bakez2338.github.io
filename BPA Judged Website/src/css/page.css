@@ -39,6 +39,18 @@ body{
 #content{
     padding-left:30px;
 }
+h1{
+    font-size:36pt;
+}
+h2{
+    font-size:30pt;
+}
+h3{
+    font-size:26pt;
+}
+td{
+    font-size:20pt;
+}
 p{
     font-size:20pt;
 }
@@ -54,9 +66,13 @@ div div div.content {
 .img-right{
     float:right;
 }
-.f-left{
+.img-left{
     float:left;
 }
-.f-right{
-    float:right;
+.t-image{
+    height:300px;
+}
+hr{
+    border:none;
+    border-bottom:#333 solid 5px;
 }
