@@ -4,6 +4,7 @@ body{
     overflow-x:hidden;
     padding:0px;
     margin:0px;
+    font-family: "Open Sans",sans-serif;
 }
 #header{
     background-color:#000;
