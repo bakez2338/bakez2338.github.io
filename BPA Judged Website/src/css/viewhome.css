@@ -1,0 +1,32 @@
+body{
+    background-color:#80808f;
+    background-size:contain;
+    background-repeat:no-repeat;
+    color:#000;
+    overflow-x:hidden;
+    padding:0px;
+    margin:0px;
+}
+/*Size of image is 1827 × 1008*/
+#homeimage{
+    width:100vw;
+    height:calc(100vw / (1827 / 1008));
+}
+#homeimage.h11{
+    background-image:url("../images/11.png");
+}
+#homeimage.h12{
+    background-image:url("../images/12.png");
+}
+#homeimage.h21{
+    background-image:url("../images/21.png");
+}
+#homeimage.h22{
+    background-image:url("../images/22.png");
+}
+#homeimage.h31{
+    background-image:url("../images/31.png");
+}
+#homeimage.h32{
+    background-image:url("../images/32.png");
+}
