@@ -1,3 +1,7 @@
+@font-face{
+    font-family:"Varela";
+    src:("../fonts/varela-regular.ttf");
+}
 body{
     background-color:#6baf5d;
     color:#000;
@@ -30,6 +34,7 @@ body{
     font-family:"Times New Roman", Times, sans-serif;
 }
 #wrapper{
+    font-family:Varela;
     padding:0px 30px;
 }
 #content{
