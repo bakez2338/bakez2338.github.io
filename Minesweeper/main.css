@@ -1,0 +1,179 @@
+.load-div {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+.load-div:after {
+    content:" ";
+    display:block;
+    width:46px;
+    height:46px;
+    margin:1px;
+    border-radius:50%;
+    border:5px solid #fff;
+    border-color:#fff transparent #fff transparent;
+    animation:load-div 1.2s linear infinite;
+}
+@keyframes load-div {
+    0% {
+      transform:rotate(0deg);
+    }
+    100% {
+      transform:rotate(360deg);
+    }
+}
+@font-face{
+    font-family:"Comic Sans Web";
+    src:url("src/fonts/comic-sans.woff");
+}
+@font-face{
+    font-family:"DSEG7";
+    src:url("src/fonts/DSEG7.woff");
+}
+@font-face{
+    font-family:"DSEG14";
+    src:url("src/fonts/DSEG14.woff");
+}
+body{
+    background-color:#000;
+    color:#fff;
+    font-family:"Comic Sans MS", "Comic Sans Web", "sans-serif";
+}
+#game-wrapper.loading{
+    padding:15vh;
+    text-align:center;
+}
+#game-wrapper.loaded{
+    padding-top:10vh;
+    text-align:center;
+}
+#game-wrapper.loading div.load-div{
+    margin:30px;
+}
+#game{
+    display:inline-block;
+    border:#808080 solid 5px;
+}
+.row{
+    height:32px;
+    display:block;
+    overflow:hidden;
+    padding:0px;
+}
+.tile{
+    margin:0px;
+    padding:0px;
+    height:32px;
+    width:32px;
+    background-size:cover;
+    display:inline-block;
+}
+.tile.tile_unknown{
+    background-image:url("src/images/tile_unknown.png");
+}
+.tile.tile_empty{
+    background-image:url("src/images/tile_empty.png");
+}
+.tile.tile_flag{
+    background-image:url("src/images/tile_flag.png");
+}
+.tile.tile_mine{
+    background-image:url("src/images/tile_mine.png");
+}
+.tile.tile_1{
+    background-image:url("src/images/tile_1.png");
+}
+.tile.tile_2{
+    background-image:url("src/images/tile_2.png");
+}
+.tile.tile_3{
+    background-image:url("src/images/tile_3.png");
+}
+.tile.tile_4{
+    background-image:url("src/images/tile_4.png");
+}
+.tile.tile_5{
+    background-image:url("src/images/tile_5.png");
+}
+.tile.tile_6{
+    background-image:url("src/images/tile_6.png");
+}
+.tile.tile_7{
+    background-image:url("src/images/tile_7.png");
+}
+.tile.tile_8{
+    background-image:url("src/images/tile_8.png");
+}
+.tile.tile_unknown.tile_pressed{
+    background-image:url("src/images/tile_empty.png");
+}
+#game-header{
+    padding:5px;
+    width:calc(100% - 10px);
+    background-color:#c0c0c0;
+    border-bottom:#808080 solid 5px;
+    text-align:center;
+}
+#smile{
+    height:52px;
+    width:52px;
+    display:inline-block;
+    background-size:cover;
+}
+#smile.up{
+    background-image:url("src/images/smile_up.png");
+}
+#smile.down{
+    background-image:url("src/images/smile_down.png");
+}
+#smile.up.pressed{
+    background-image:url("src/images/smile_mousedown.png")
+}
+#smile.lose{
+    background-image:url("src/images/smile_lose.png");
+}
+.num{
+    margin-left:2px;
+    margin-top:2px;
+    height:46px;
+    width:26px;
+    background-size:cover;
+    display:inline-block;
+}
+.num.num-{
+    background-image:url("src/images/num-.png");
+}
+.num.num0{
+    background-image:url("src/images/num0.png");
+}
+.num.num1{
+    background-image:url("src/images/num1.png");
+}
+.num.num2{
+    background-image:url("src/images/num2.png");
+}
+.num.num3{
+    background-image:url("src/images/num3.png");
+}
+.num.num4{
+    background-image:url("src/images/num4.png");
+}
+.num.num5{
+    background-image:url("src/images/num5.png");
+}
+.num.num6{
+    background-image:url("src/images/num6.png");
+}
+.num.num7{
+    background-image:url("src/images/num7.png");
+}
+.num.num8{
+    background-image:url("src/images/num8.png");
+}
+.num.num9{
+    background-image:url("src/images/num9.png");
+}
+#mineDisplay{
+    float:left;
+    display:block;
+}
